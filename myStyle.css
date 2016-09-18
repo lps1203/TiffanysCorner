@@ -19,5 +19,8 @@ h1 {
     width: 40%;
 }
 
+h3 > span {
+    font-style: italic;
+}
 
 
