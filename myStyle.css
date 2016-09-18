@@ -23,4 +23,20 @@ h3 > span {
     font-style: italic;
 }
 
+footer > p {
+    text-align: right;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+
+form label {
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+.container > .row > .col-sm-offset-3 > p {
+    font-size: 1.5em;
+}
