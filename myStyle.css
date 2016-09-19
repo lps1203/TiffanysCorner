@@ -40,3 +40,10 @@ form label {
 .container > .row > .col-sm-offset-3 > p {
     font-size: 1.5em;
 }
+
+div#loggedInUser > h4 {
+    text-align: right;
+    padding: 0px;
+    margin: -10px;
+    text-weight: normal;
+}
