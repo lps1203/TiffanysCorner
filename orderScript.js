@@ -34,7 +34,7 @@ var contactBtn = document.getElementById('contact-btn');
 
 contactBtn.addEventListener('click', function() {
     var contactResult = document.getElementById('contact-result');
-    contactResult.innerHTML = '<div class="container"><div class="row"><div class="col-sm-3"></div><div class="col-sm-6"><div class="alert alert-success"><strong>Thank you!</strong> Your order has been sent to us. Our confirmation email will provide detailed information about payment and shipping. Please be advised that you do not accept international orders. </div><br></div><div class="col-sm-3"></div></div></div>';
+    contactResult.innerHTML = '<div class="container"><div class="row"><div class="col-sm-3"></div><div class="col-sm-6"><div class="alert alert-success"><strong>Thank you!</strong> Your order has been sent to us. Our confirmation email will provide detailed information about payment and shipping. Please be advised that we do not accept international orders. </div><br></div><div class="col-sm-3"></div></div></div>';
 }, false);
 
 
