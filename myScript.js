@@ -25,3 +25,10 @@ function checkLoggedIn() {
 function clearSession() {
     sessionStorage.clear();
 }
+
+var contactBtn = document.getElementById('contact-btn');
+
+contactBtn.addEventListener('click', function() {
+    var contactResult = document.getElementById('contact-result');
+    contactResult.innerHTML = '<div class="container"><div class="row"><div class="col-sm-3"></div><div class="col-sm-6"><div class="alert alert-success"><strong>Success!</strong> Your comment has been sent.</div><br></div><div class="col-sm-3"></div></div></div>';
+}, false);
