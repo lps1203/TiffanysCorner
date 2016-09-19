@@ -42,7 +42,7 @@
 
 
 <div class="container">
-  <h3>Click on checkboxes to add to your order. When done, press the "Order" button below.</h3>   
+  <h3>Click on checkboxes to add to your order. When done, press the "Order Summary" button below.</h3>   
   <br>
   <div class="row">
     <div class="col-sm-3">
@@ -90,7 +90,7 @@
       </div>
       <a href="images/pic5.jpeg" class="thumbnail">
         <img src="images/pic5.jpeg">
-        <p style="text-align: center">$59.99</p> 
+        <p style="text-align: center">$14.99</p> 
       </a>
     </div>
     <div class="col-sm-3">
@@ -99,7 +99,7 @@
       </div>
       <a href="images/pic6.jpeg" class="thumbnail">
         <img src="images/pic6.jpeg">
-        <p style="text-align: center">$89.99</p>
+        <p style="text-align: center">$9.99</p>
       </a>
     </div>
     <div class="col-sm-3">
@@ -108,7 +108,7 @@
       </div>
       <a href="images/pic7.jpeg" class="thumbnail">      
         <img src="images/pic7.jpeg">
-        <p style="text-align: center">$89.99</p>
+        <p style="text-align: center">$9.99</p>
       </a>
     </div>
      <div class="col-sm-3">
@@ -129,7 +129,7 @@
       </div>
       <a href="images/pic9.jpeg" class="thumbnail">
         <img src="images/pic9.jpeg">
-        <p style="text-align: center">$59.99</p> 
+        <p style="text-align: center">$25.99</p> 
       </a>
     </div>
     <div class="col-sm-3">
@@ -138,7 +138,7 @@
       </div>
       <a href="images/pic10.jpeg" class="thumbnail">
         <img src="images/pic10.jpeg">
-        <p style="text-align: center">$89.99</p>
+        <p style="text-align: center">$75.99</p>
       </a>
     </div>
     <div class="col-sm-3">
@@ -147,7 +147,7 @@
       </div>
       <a href="images/pic11.jpeg" class="thumbnail">      
         <img src="images/pic11.jpeg">
-        <p style="text-align: center">$89.99</p>
+        <p style="text-align: center">$15.99</p>
       </a>
     </div>
      <div class="col-sm-3">
@@ -156,7 +156,7 @@
       </div>
       <a href="images/pic12.jpeg" class="thumbnail">   
         <img src="images/pic12.jpeg">
-        <p style="text-align: center">$9.99</p> 
+        <p style="text-align: center">$29.99</p> 
       </a>
     </div>
   </div> <!--row3-->
@@ -170,7 +170,7 @@
       </div>
       <a href="images/pic13.jpeg" class="thumbnail">
         <img src="images/pic13.jpeg">
-        <p style="text-align: center">$59.99</p> 
+        <p style="text-align: center">$149.99</p> 
       </a>
     </div>
     <div class="col-sm-3">
@@ -179,7 +179,7 @@
       </div>
       <a href="images/pic14.jpeg" class="thumbnail">
         <img src="images/pic14.jpeg">
-        <p style="text-align: center">$89.99</p>
+        <p style="text-align: center">$199.99</p>
       </a>
     </div>
     <div class="col-sm-3">
@@ -188,7 +188,7 @@
       </div>
       <a href="images/pic15.jpeg" class="thumbnail">      
         <img src="images/pic15.jpeg">
-        <p style="text-align: center">$89.99</p>
+        <p style="text-align: center">$99.99</p>
       </a>
     </div>
      <div class="col-sm-3">
@@ -197,21 +197,67 @@
       </div>
       <a href="images/pic16.jpeg" class="thumbnail">   
         <img src="images/pic16.jpeg">
-        <p style="text-align: center">$9.99</p> 
+        <p style="text-align: center">$159.99</p> 
       </a>
     </div>
   </div> <!--row4-->
 <br>
-
-
 </div> <!--container-->
 
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+             <button type="button" id="order-btn1" class="btn btn-primary btn-lg">Click for Order Summary</button>
+        </div>
+        <div class="col-sm-4">
+        </div>
+         <div class="col-sm-4">
+         </div>          
+    </div>
+</div>
+
+<br><br>
+
+    <div id="order-summary"></div>
+
+<br><br>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-6">
+                <form>
+                    <div class="form-group">
+                        <label for="user">Name</label>
+                        <input type="text" class="form-control" id="user">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" class="form-control" id="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="text" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comment</label>
+                        <textarea class="form-control" rows="2" id="comment"></textarea>
+                    </div>                   
+                    <br>
+                    <button id="contact-btn" type="button" class="btn btn-primary btn-lg">Click to place your order</button>
+                    <br>
+                    <br>
+                    <br>
+                </form>
+            </div>
+            <div class="col-sm-6">
+            </div>
+        </div> <!--row-->
+    </div> <!--container-->
 
 
-
-
-
-
+    <div id="contact-result"></div>
 
     <footer>
         <p>&copy; 2016 Tiffany's Corner</p>
