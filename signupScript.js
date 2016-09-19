@@ -25,6 +25,7 @@ signupBtn.addEventListener('click', function() {
     else {
         signupResult.innerHTML = signupSuccess;
         localStorage.setItem(user.value, pass.value);
+        sessionStorage.clear();
         setTimeout(gotoLogin, 5000);
     }
 }, false);
