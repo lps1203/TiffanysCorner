@@ -9,7 +9,7 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="myStyle.css">
 </head>
-<body>
+<body onload="checkLoggedIn()">
     <div class="container-fluid">
         <h1><span class="glyphicon glyphicon-leaf"></span>Tiffany's Corner</h1>
     </div> <!--container-fluid-->
@@ -24,10 +24,15 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li class="active"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>                
+                <li id="login" class="active"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>                
             </ul>
         </div> <!--container-fluid-->
     </nav>
+
+    <div class="container-fluid">
+        <div id="loggedInUser"><h4>Logged in: <span id="loggedInUsername" class="label label-default">None</span</h4></div>
+        <br>
+    </div>
 
 
     <div class="container">
