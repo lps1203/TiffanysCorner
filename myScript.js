@@ -9,9 +9,9 @@ function checkLoggedIn() {
         parentLog.removeChild(logEl);
         // add logout menu
         var newLi = document.createElement('li');
-        newLi.id = 'log';
+        newLi.id = 'logout';
         var newA = document.createElement('a');
-        newA.href = 'index.html';
+        newA.href = 'logout.html';
         var newSpan = document.createElement('span');
         newSpan.className = 'glyphicon glyphicon-log-out';
         var newText = document.createTextNode('Logout');
@@ -22,6 +22,6 @@ function checkLoggedIn() {
     }
 }
 
-
-
- //<li id="log"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> 
+function clearSession() {
+    sessionStorage.clear();
+}
